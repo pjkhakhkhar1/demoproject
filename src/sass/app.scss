@@ -1,0 +1,33 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+
+main {
+    .container {
+        min-height: 500px;
+
+    }
+}
+// @import "cover";
+
+@import "header";
+@import "index";
+@import "font-awesome";
+@import "about";
+@import "datatable";
+@import "contact-us";
+
+
+
+
+
+
+
+
