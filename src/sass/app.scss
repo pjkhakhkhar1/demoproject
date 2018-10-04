@@ -9,15 +9,13 @@
 
 
 
-main {
-    .container {
-        min-height: 500px;
-
-    }
-}
 // @import "cover";
 
-@import "header";
+@import "include/header.scss";
+@import "include/footer.scss";
+
+@import "common.scss";
+
 @import "index";
 @import "font-awesome";
 @import "about";
