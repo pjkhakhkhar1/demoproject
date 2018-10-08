@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@ h1 {
 h2 {
   font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
-  } */
+  }
 
 #wrapper {
   padding: 20px;
@@ -74,10 +74,10 @@ p,h3,h4,pre {
   }
 
 .rslides_tabs a {
-  /* width: auto; */
+  width: auto;
   line-height: 20px;
   padding: 9px 20px;
-  /* height: auto; */
+  height: auto;
   background: transparent;
   display: inline;
   }
