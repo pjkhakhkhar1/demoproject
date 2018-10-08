@@ -20,7 +20,7 @@ mix.combine(
         "src/vendor/jqueryui/jquery-ui.min.js",
         "src/vendor/sweetalert/sweetalert.min.js",
         "src/vendor/validate/jquery.validate.min.js",
-        "src/vendor/slider/responsiveslides.min.js"
+        
         
         
     ],
