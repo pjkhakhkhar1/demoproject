@@ -38,3 +38,19 @@
   }
 }
 
+
+.mt-50{
+  margin-top: 3em;
+}
+
+.card-body{
+  .card-title{
+    @extend %title-shared;
+  }
+  p{
+    @extend %card-text;
+      
+  }
+
+  
+}

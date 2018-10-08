@@ -1,8 +1,30 @@
 
 // Body
 $enable-rounded: false;
+$mute:#636363;
 
-$blue: yellow;
+
+%title-shared
+{
+    font-weight: 300;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 1em;
+    
+}
+
+%pb-50{
+    padding-bottom: 1em;
+}
+
+%card-text{
+    font-size: 15px !important;
+    color:#666;
+    margin-top: 2em;
+    font-weight: 300;
+}
+
+$blue: #ff0000;
 $gray-600: #333;
 
 $body-bg:  #f1f2f2 ;
