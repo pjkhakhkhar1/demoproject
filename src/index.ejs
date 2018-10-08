@@ -173,6 +173,31 @@
                 
             </div>   
         </div>
+
+        <div class="simple-slider" style="margin:3em auto;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="../img/1.jpg" alt="">
+          <p class="caption">This is a caption</p>
+        </li>
+        <li>
+          <img src="../img/2.jpg" alt="">
+          <p class="caption">This is another caption</p>
+        </li>
+        <li>
+          <img src="../img/3.jpg" alt="">
+          <p class="caption">The third caption</p>
+        </li>
+      </ul>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <% include /src/include/footer.ejs %>
@@ -212,6 +237,26 @@
                         swal("Your imaginary file is safe!");
                     }
                 });
+        });
+
+
+        // slider js
+
+        
+        $(function() {
+            $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
         });
 
 
