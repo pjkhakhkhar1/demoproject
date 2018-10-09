@@ -20,7 +20,8 @@ mix.combine(
         "src/vendor/jqueryui/jquery-ui.min.js",
         "src/vendor/sweetalert/sweetalert.min.js",
         "src/vendor/validate/jquery.validate.min.js",
-        "src/vendor/slider/responsiveslides.min.js"
+        "src/vendor/slider/responsiveslides.min.js",
+        "src/vendor/filter/jquery.filterizr.min.js"
         
         
     ],
@@ -34,7 +35,8 @@ mix.combine(
         "src/vendor/font-awesome/css/font-awesome.min.css",
         "src/vendor/jqueryui/jquery-ui.min.css",
         "src/vendor/slider/responsiveslides.css",
-        "src/vendor/slider/demo.css"
+        "src/vendor/slider/demo.css",
+        "src/vendor/filter/index.css"
         
         
     ],
