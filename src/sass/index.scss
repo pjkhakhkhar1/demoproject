@@ -38,4 +38,15 @@
   }
 }
 
+.mynav{
+  .mynavlist{
+    list-style: none;
+  }
+  .navlink{
+    display: inline-block;
+  }
+  a{
+    color: green;
+  }
 
+}
